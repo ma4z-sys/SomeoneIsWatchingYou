@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "someoneiswatchingyou",
+	"version": "${version}",
+	"name": "SomeoneIsWatchingYou",
+	"description": "Sample Fabric 26.1.2 mod.",
+	"authors": [
+		"ma4z"
+	],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ma4z.soiwu.SomeoneIsWatchingYou"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
