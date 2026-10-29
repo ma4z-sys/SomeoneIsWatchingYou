@@ -3,20 +3,23 @@
 	"id": "someoneiswatchingyou",
 	"version": "${version}",
 	"name": "SomeoneIsWatchingYou",
-	"description": "Sample Fabric 26.1.2 mod.",
+	"description": "Dahda is watching.",
 	"authors": [
 		"ma4z"
 	],
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ma4z.soiwu.SomeoneIsWatchingYou"
+			"com.ma4z.soiwu.SomeoneIsWatchingYouFabric"
+		],
+		"client": [
+			"com.ma4z.soiwu.SomeoneIsWatchingYouClient"
 		]
 	},
 	"depends": {
 		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
 		"fabric-api": "*"
 	}
 }
